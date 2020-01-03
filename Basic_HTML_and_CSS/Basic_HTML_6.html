@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>									
+		<title>This is the title</title>	
+		<meta charset = "utf-8">	
+		<style>
+			span.woodGallows {
+				color: orange;
+				text-shadow: 1px 1px brown;
+			}
+			
+			span.steelGallows {
+				color: steel;
+				text-shadow: 1px 1px silver;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Welcome Section -->
+		<section>
+			<h1>Welcome to hangman &copy;</h1>
+			<p>
+				The goal of the game is to guess the correct word letter-by-letter.<br>
+				But be careful, too many wrong guesses will not be good for stick guy.<br>
+			</p>
+		</section>
+		
+		<!-- Hangman Section -->
+		<section>
+		<p>
+			&nbsp;&nbsp;&nbsp;&nbsp;<span class="woodGallows">______</span><br>
+			<span class="steelGallows">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span><br>
+			<span class="steelGallows">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span><br>
+			<span class="steelGallows">&nbsp;&nbsp;&nbsp;&nbsp;|</span><br>
+			<span class="woodGallows">__</span><span class="steelGallows">|</span><span class="woodGallows">__</span>
+		</p>
+		</section>
+	</body>
+</html>
