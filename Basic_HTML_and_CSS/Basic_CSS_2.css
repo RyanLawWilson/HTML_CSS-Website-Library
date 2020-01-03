@@ -1,6 +1,15 @@
 p {
 	color: pink;
-	background: black;
+	background: gray;
 	font-style: bold;
-	text-align: center;
+}
+
+/* Text shadow copies the text but with a small offset to simulate a shadow */
+/* first#: how far left? Second#: how far down? */
+h1 {
+	text-shadow: 2px 2px green;
+}
+
+h2 {
+	text-shadow: 5px 5px pink;
 }
