@@ -1,0 +1,21 @@
+body {
+    margin: 0%;
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(97, 97, 97);
+}
+
+.navBar a {
+    float: left;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: red;
+    padding: 15px;
+}
