@@ -1,0 +1,175 @@
+/* ======================
+        General
+========================= */
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px #000;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* ======================
+        Footer
+========================= */
+.footerText {
+    text-align: center;
+    font-weight: 1000;
+}
+
+/* ==================
+        NAVBAR
+====================== */
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(161, 32, 32);
+    z-index: 1000;
+    padding: 10px 20px 10px 20px;
+}
+
+.navigation a {
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 39, 252);
+    background-color: rgba(243, 97, 77, 0.493);
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px
+}
+
+.navigation a:hover {
+    background-color: rgba(107, 42, 34, 0.493);
+    text-decoration: underline overline;
+}
+
+/* ==================
+        Video Bar
+====================== */
+.video_bar {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+}
+
+video {
+    float: right;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 320px;
+}
+
+/* =============================
+        Video Bar Text Overlay
+================================ */
+.text-over-video-container {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-text {
+    position: absolute;
+    top: 0;
+    right: 140px;
+}
+
+/* =================================
+        Text Over Image
+=================================== */
+.text-over-image-container {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* =============================
+        Two Columns
+=============================== */
+.ryanRow {
+    width: 60%;
+    background-color: salmon;
+    margin: auto;
+}
+
+.ryanCol {
+    float: left;
+    background-color: seagreen;
+    width: 50%;
+    height: 250px;
+    color: purple;
+}
+
+.ryanCol:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* =============================
+        p hover effect
+=============================== */
+p.hoverP:hover {
+    text-decoration: underline overline;
+    font-style: oblique;
+    color: pink;
+}
+
+/* =====================================
+        image overlay fade effect 
+======================================== */
+/* This was a nightmare and it still looks meh. */
+.overlay {
+    position: absolute;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 25%;
+    right: 0;
+    opacity: 0;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+.overlayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-over-image-container:hover .overlay {
+    opacity: 1;
+}
+
+/* =========================
+        Table Styles
+============================ */
+table, th, td {
+    border: 2px dashed yellow;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td, th {
+    padding: 15px;
+}
+
+th {
+    background-color: red;
+}

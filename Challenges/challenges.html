@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/challenges.css">
+
+        <title>End of course challenges</title>
+    </head>
+    <body>
+        <div class="container bg-dark mb-3 mt-5 p-5">
+            <h1 class="text-center">Challenges</h1>
+        </div>
+        
+        <!------------------------------------------------------
+            Navbar that is fixed and styled p.392
+         ------------------------------------------------------->
+        <div class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+        <!------------------------------------------------------
+            Some HTML and CSS that I didn't know previously
+         ------------------------------------------------------->
+        <div class="container">
+            <div class="row bg-primary">
+                <div class="col-sm bg-dark m-2">
+                    <p class="text-light">Check out these meters:</p>
+                    <meter value="66" min="0" max="100">66 out of 10</meter><br>
+                    <meter value="0.2" style="opacity: 50%;">20%</meter>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------
+            Centered image with rounded corners and CSS filter p.388
+            Table with border, padding, background color p.390
+         ------------------------------------------------------->
+        <div class="container">
+            <div class="row my-3 bg-secondary">
+
+                <!-- Image column-->
+                <!-- 
+                    *****Bootsrap Note***** 
+                    Altering the margins of one column in a row messes up the layout.
+                -->
+                <div class="col-sm-8 py-3 bg-dark">
+                    <p class="text-center">This photo is centered, rounded, and has a css filter</p>
+                    <img src="images/pikachu.jpg" class="img-fluid rounded mx-auto d-block" style="filter: contrast(300%);" alt="Responsive image">
+                </div>
+
+                <!-- Table Column -->
+                <div class="col-sm-4 bg-dark py-3">
+                    <p class="text-center">A table with a border, padding in the cells, and a background color in the top row.</p>
+                    <table>
+                        <tr>
+                            <th>Holiday</th>
+                            <th>Days Left</th>
+                        </tr>
+                        <tr>
+                            <td>Easter</td>
+                            <td>96</td>
+                        </tr>
+                        <tr>
+                            <td>Memorial Day</td>
+                            <td>139</td>
+                        </tr>
+                        <tr>
+                            <td>July 4</td>
+                            <td>179</td>
+                        </tr>
+                        <tr>
+                            <td>Halloween</td>
+                            <td>298</td>
+                        </tr>
+                        <tr>
+                            <td>Christmas</td>
+                            <td>353</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------
+            Image with text over it p.391
+         ------------------------------------------------------->
+        <div class="text-over-image-container">
+            <img src="images/jigglypuff_rest.jpg" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
+            <div class="top-center"><h2>Jigglypuff resting fools.</h2></div>
+            <div class="overlay">
+                <div class="overlayText">Press Down B</div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------
+            Footer text is centered and bold p.389
+         ------------------------------------------------------->
+        <div class="container bg-dark">
+            <footer>
+                <small>The Footer</small>
+                <p class="footerText">This is some text that is centered and bold</p>
+            </footer>
+        </div>
+
+        <!------------------------------------------------------
+            Two columns that are styled p.393
+            P tag hover effect p.394
+         ------------------------------------------------------->
+        <div class="ryanRow">
+            <div class="ryanCol">
+                <h1>This is column 1</h1>
+                <p>Welcome to column 1</p>
+                <p class="hoverP">HOVER OVER ME</p>
+            </div>
+            <div class="ryanCol">
+                <h1>This is column 2</h1>
+                <p>Welcome to column 2</p>
+            </div>
+        </div>
+        
+        <!------------------------------------------------------
+            Video bar on the fixed to the bottom of the page p.396
+            Text overlay on a video p.397
+         ------------------------------------------------------->
+        <div class="video_bar">
+            <video controls muted loop autoplay>
+                <source src="videos/scenery.mp4" type="video/mp4">
+            </video>
+            <div class="text-over-video-container">
+                <p class="video-text">This is some scenery.</p>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
